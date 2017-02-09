@@ -1,6 +1,6 @@
 module.exports = {
 
-aritGeo : function (arr) {
+aritGeo :function (arr) {
   
   if (arr.length < 1){
     return 0;
@@ -12,7 +12,7 @@ aritGeo : function (arr) {
   var isArithProgression
   var isGeoProgression;
 
-  for(var i = 2; i < arr.length; i++) {
+  for(var i = 2; i < arr.length; i++){
     if(arr[i] - arr[i - 1] === arithBaseComparison )
       isArithProgression = true;
     else
