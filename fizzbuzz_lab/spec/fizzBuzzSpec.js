@@ -14,6 +14,11 @@ describe("Fizz Buzz tests ", function(){
 	it("should return `FizzBuzz` for 15", function() {
     expect(fizzBuzz.fizzBuzz(15)).toBe('FizzBuzz');
   });
+
+  it("should return 53 since it is indivisible by 5 and 3", function() {
+    expect(fizzBuzz.fizzBuzz(53)).toBe(53);
+  });
+
   it("should return `FizzBuzz` for 45", function() {
     expect(fizzBuzz.fizzBuzz(45)).toBe('FizzBuzz');
   });
