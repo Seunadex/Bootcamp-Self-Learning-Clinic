@@ -29,6 +29,10 @@ var findMinMax = require("../app/findMinMax.js");
         expect(findMinMax.findMinMax([4, 4, 4, 4])).toEqual([4]);
       });
 
+      it('should return [4] for [9, 9, 9, 9, 9, 9, 9]', function () {
+        expect(findMinMax.findMinMax([9, 9, 9, 9, 9, 9, 9])).toEqual([9]);
+      });
+
     });
 
   });
