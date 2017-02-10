@@ -1,4 +1,5 @@
 Bootcamp Self Learning Clinic
+Programming Logic, TDD, Git & Version Control
 
 Contains three labs namely aritGeo-lab, findMinMax-lab and fizzbuzz-lab.
 
