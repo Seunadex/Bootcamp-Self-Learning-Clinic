@@ -37,11 +37,7 @@
       it("should return `Geometric` for [2, 6, 18, 54, 162]", function() {
         expect(aritGeo.aritGeo([2, 6, 18, 54, 162])).toEqual('Geometric');
       });
-
-      it("should return `Geometric` for [1, 3, 6, 12]", function() {
-        expect(aritGeo.aritGeo([1, 3, 6, 12])).toEqual('Geometric');
-      });
-
+      
       it("should return `Geometric` for [0.5, 3.5, 24.5, 171.5]", function() {
         expect(aritGeo.aritGeo([0.5, 3.5, 24.5, 171.5])).toEqual('Geometric');
       });
